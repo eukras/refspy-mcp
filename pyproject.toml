@@ -1,0 +1,7 @@
+[project]
+name = "refspy-mcp"
+version = "0.1.0"
+description = "MCP server that identifies Bible references in text using refspy"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp[cli]>=2.3.0", "refspy>=0.11.9"]
